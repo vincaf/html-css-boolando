@@ -13,6 +13,7 @@ header{
     z-index: 2;
     top: 0px;
     width: 100%;
+    box-shadow: 0 0 4px rgba(0,0,0,0.7)
 }
 
 .container_header{
@@ -77,6 +78,7 @@ main{
     height: 600px;
     background-size: contain;
     background-repeat: no-repeat;
+    position: relative;
 }
 
 /* Identificativi per ogni box */
@@ -105,7 +107,7 @@ main{
     background-image: url("./img/6.webp");
 }
 
-/* Rettangoli con saldi e sostenibilità */
+/* Rettangoli con saldi, sostenibilità e preferiti */
 
 .box .sale{
     padding: 5px 10px;
@@ -125,6 +127,15 @@ main{
     font-weight: bold;
     position: relative;
     top: 450px;
+}
+
+.box .favorites{
+    padding: 10px 10px;
+    background-color: #fff;
+    color: #000;
+    position: absolute;
+    top: 20px;
+    right: 0px;
 }
 
 /* Info dei prodotti */
