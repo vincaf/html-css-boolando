@@ -10,6 +10,7 @@
 header{
     background-color: #ff6900;
     position: fixed;
+    z-index: 2;
     top: 0px;
     width: 100%;
 }
@@ -69,12 +70,17 @@ main{
     flex-wrap: wrap;
 }
 
+/* Box dei prodotti */
+
 .box{
+    display: inline-block;
     flex-basis: 32%;
     height: 600px;
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+/* Identificativi per ogni box */
 
 #one{
     background-image: url("./img/1.webp");
@@ -98,4 +104,24 @@ main{
 
 #six{
     background-image: url("./img/6.webp");
+}
+
+.box .sale{
+    padding: 5px 10px;
+    background-color: #ff0000;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    top: 450px;
+}
+
+.box .material{
+    padding: 5px 10px;
+    background-color: #008000;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    top: 450px;
 }
