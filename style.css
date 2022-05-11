@@ -73,7 +73,6 @@ main{
 /* Box dei prodotti */
 
 .box{
-    display: inline-block;
     flex-basis: 32%;
     height: 600px;
     background-size: contain;
@@ -106,6 +105,8 @@ main{
     background-image: url("./img/6.webp");
 }
 
+/* Rettangoli con saldi e sostenibilità */
+
 .box .sale{
     padding: 5px 10px;
     background-color: #ff0000;
@@ -124,4 +125,36 @@ main{
     font-weight: bold;
     position: relative;
     top: 450px;
+}
+
+/* Info dei prodotti */
+
+.box .info{
+    position: relative;
+    top: 500px;
+}
+
+#five .info{
+    position: relative;
+    top: 518px;
+}
+
+.info .brand{
+    font-size: 10px;
+}
+
+.info .nameproduct{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.info .price{
+    font-size: 12px;
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.price del{
+    color: black;
+    font-weight: 500;
 }
